@@ -15,7 +15,7 @@ spec:
       containers:
       - name: pius-api
         # This image is going to be the path to the image you create in a future step
-        image: us-docker.pkg.dev/my-devops-team-404512/pius-api/stedi-api:latest
+        image: us-docker.pkg.dev/my-devops-team-404512/pius-api:latest
         ports:
         - containerPort: 3000
         resources:
